@@ -195,7 +195,7 @@ def rules_antlr_dependencies(*versionsAndLanguages):
             if version == 4 or version == "4.9.2":
                 _antlr492_dependencies(languages)
             elif version == "4.8":
-                _antlr48_dependencies(languages
+                _antlr48_dependencies(languages)
             elif version == "4.7.2":
                 _antlr472_dependencies(languages)
             elif version == "4.7.1":
